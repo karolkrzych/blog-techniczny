@@ -2,15 +2,15 @@ import type { NextPage } from 'next';
 import Layout from 'components/Layout';
 import Head from 'next/head';
 
-const Home: NextPage = () => {
+const About: NextPage = () => {
   return (
     <Layout>
       <Head>
-        <title> Blog - recent posts </title>
+        <title> About author </title>
       </Head>
-      <p>treść</p>
+      <p>about</p>
     </Layout>
   );
 };
 
-export default Home;
+export default About;
